@@ -1,10 +1,12 @@
 import React from "react";
 import MovieSlider from "./FirstMovieSlider";
+import ActorsSlider from "./ActorsSlider";
 
 export default function Main() {
   return (
     <div className="justify-items-center">
       <MovieSlider />
+      <ActorsSlider />
     </div>
   );
 }

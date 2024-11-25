@@ -7,14 +7,25 @@ import { Autoplay } from "swiper/modules";
 export default () => {
   return (
     <Swiper
-      className="container text-center mt-5 rounded"
+      className="container text-center mt-5 rounded mb-2"
       modules={[Autoplay]}
-      spaceBetween={10}
-      slidesPerView={3}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
+      spaceBetween={10}
+      slidesPerView={3}
       autoplay={{ delay: 5000 }}
       loop
+      breakpoints={{
+        50: {
+          slidesPerView: 1,
+        },
+        650: {
+          slidesPerView: 2,
+        },
+        800: {
+          slidesPerView: 3,
+        },
+      }}
     >
       <SwiperSlide>
         <a href="">
