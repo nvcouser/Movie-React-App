@@ -22,7 +22,10 @@ export default function Navigate() {
             <li className="ml-10 rounded text-lg  p-2 outline-none hover:bg-zinc-900">
               <a href="">Home</a>
             </li>
-            <li className="ml-10 rounded text-lg  p-2 outline-none hover:bg-zinc-900">
+            <li
+              id="Movies"
+              className="ml-10 rounded text-lg  p-2 outline-none hover:bg-zinc-900"
+            >
               <a href="">Movies</a>
             </li>
             <li className="ml-10 rounded outline-none text-lg  p-2 hover:bg-zinc-900">
