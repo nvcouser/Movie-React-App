@@ -4,8 +4,9 @@ import Main from "./main/Main";
 import Footer from "./footer/Footer";
 
 function App() {
+  const [isOpenMenu, setIsOpenMenu] = useState(false);
   return (
-    <div>
+    <div onClick={() => setIsOpenMenu(!isOpenMenu)}>
       <Header />
       <Main />
       <Footer />
