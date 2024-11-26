@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import Navigate from "../header/Navigate";
 
-const Layout = (props) => {
+const Layout = () => {
   return (
     <>
       <nav>
