@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom/client";
 import Main from "./main/Main";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
